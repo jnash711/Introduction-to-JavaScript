@@ -1,5 +1,7 @@
 /*🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️ Task 1: Warm-up! 🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️*/
 
+import { worker } from "@jest/reporters/build/coverage_worker";
+
 /*MAKE SURE TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
 
 /*
@@ -13,10 +15,18 @@ Task 1a - Voting Age
 
 Do the following:   
    1. Make a variable called votingAge and give it a value
-   2. Return true if age is 18 or higher
-
+   2. Return true if age is 18 or higher  
    HINT: no function required
 */
+const votingAge = 18;
+if(votingAge >= 18){
+  console.log(true);
+}
+else{
+  console.log(false);
+}
+
+
 
 
 
@@ -30,7 +40,13 @@ Do the following:
 
    HINT: no function required
 */
-
+ let x=5
+ let y=6
+ 
+ if(x<y){
+   x += 1
+   console.log(x)
+ }
 
 
 
@@ -45,6 +61,8 @@ Do the following:
 
    HINT: look up the Number method
 */
+ const number = '1999' .replace(/,/g , '');
+ console.log(parseInt(number));
 
 
 
@@ -58,9 +76,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+    console.log(multiply(3,4));
   }
+
 
 
 
@@ -74,9 +93,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(a){
+  return a * 7;
 }
+console.log(dogYears(5))
 
 
 
@@ -108,7 +128,7 @@ Use the hungryDog function and feeding requirements below to do the following:
 */  
 
 function hungryDog(/*add your code here*/){
-    /*add your code here*/
+    // I need help with rest of this work, I am lost
   }
 
 
